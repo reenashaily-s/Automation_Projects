@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-BStackDemo_Capstone_Suite" class="navigator-link">
+              <span class="suite-name border-passed">BStackDemo Capstone Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-BStackDemo_Capstone_Suite" class="navigator-link ">
+                    <span>C:\Users\reena\OneDrive\Documents\WorkSpace_Coding\StarAgileWorkspace\Capstone_bstackdemo\src\test\java\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-BStackDemo_Capstone_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-BStackDemo_Capstone_Suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-BStackDemo_Capstone_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-BStackDemo_Capstone_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-BStackDemo_Capstone_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-BStackDemo_Capstone_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BStackDemo_Capstone_Suite" class="hide-methods passed suite-BStackDemo_Capstone_Suite"> (hide)</a> <!-- hide-methods passed suite-BStackDemo_Capstone_Suite -->
+                      <a href="#" panel-name="suite-BStackDemo_Capstone_Suite" class="show-methods passed suite-BStackDemo_Capstone_Suite"> (show)</a> <!-- show-methods passed suite-BStackDemo_Capstone_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-BStackDemo_Capstone_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BStackDemo_Capstone_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="TC_001_validLogin">TC_001_validLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BStackDemo_Capstone_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="TC_002_lockedUserLogin">TC_002_lockedUserLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BStackDemo_Capstone_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="TC_003_emptyLogin">TC_003_emptyLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BStackDemo_Capstone_Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="TC_004_AddSingleItem">TC_004_AddSingleItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BStackDemo_Capstone_Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="TC_005_AddMultipleItems">TC_005_AddMultipleItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BStackDemo_Capstone_Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="TC_006_RemoveItem">TC_006_RemoveItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BStackDemo_Capstone_Suite" title="tests.CheckoutTest" class="method navigator-link" hash-for-method="TC_007_PlaceOrderSuccess">TC_007_PlaceOrderSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BStackDemo_Capstone_Suite" title="tests.CheckoutTest" class="method navigator-link" hash-for-method="TC_008_EmptyCartNegative">TC_008_EmptyCartNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BStackDemo_Capstone_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BStackDemo_Capstone_Suite" class="panel BStackDemo_Capstone_Suite">
+          <div class="suite-BStackDemo_Capstone_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_001_validLogin">
+                  </a> <!-- TC_001_validLogin -->
+                  <span class="method-name">TC_001_validLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_002_lockedUserLogin">
+                  </a> <!-- TC_002_lockedUserLogin -->
+                  <span class="method-name">TC_002_lockedUserLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_003_emptyLogin">
+                  </a> <!-- TC_003_emptyLogin -->
+                  <span class="method-name">TC_003_emptyLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BStackDemo_Capstone_Suite-class-passed -->
+          <div class="suite-BStackDemo_Capstone_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_004_AddSingleItem">
+                  </a> <!-- TC_004_AddSingleItem -->
+                  <span class="method-name">TC_004_AddSingleItem</span>
+                  <em>
+(TC_004: Add single item to cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_005_AddMultipleItems">
+                  </a> <!-- TC_005_AddMultipleItems -->
+                  <span class="method-name">TC_005_AddMultipleItems</span>
+                  <em>
+(TC_005: Add multiple items to cart and verify cart count)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_006_RemoveItem">
+                  </a> <!-- TC_006_RemoveItem -->
+                  <span class="method-name">TC_006_RemoveItem</span>
+                  <em>
+(TC_006: Remove item from cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BStackDemo_Capstone_Suite-class-passed -->
+          <div class="suite-BStackDemo_Capstone_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_007_PlaceOrderSuccess">
+                  </a> <!-- TC_007_PlaceOrderSuccess -->
+                  <span class="method-name">TC_007_PlaceOrderSuccess</span>
+                  <em>
+(TC_007: Valid Checkout Flow)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_008_EmptyCartNegative">
+                  </a> <!-- TC_008_EmptyCartNegative -->
+                  <span class="method-name">TC_008_EmptyCartNegative</span>
+                  <em>
+(TC_008: Empty Cart Verification)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BStackDemo_Capstone_Suite-class-passed -->
+        </div> <!-- panel BStackDemo_Capstone_Suite -->
+        <div panel-name="test-xml-BStackDemo_Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\reena\OneDrive\Documents\WorkSpace_Coding\StarAgileWorkspace\Capstone_bstackdemo\src\test\java\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;BStackDemo Capstone Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;End to End Regression&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddToCartTest&quot;/&gt;
+      &lt;class name=&quot;tests.CheckoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- End to End Regression --&gt;
+&lt;/suite&gt; &lt;!-- BStackDemo Capstone Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BStackDemo_Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BStackDemo Capstone Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">End to End Regression (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BStackDemo_Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BStackDemo Capstone Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cart_func</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_004_AddSingleItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_005_AddMultipleItems</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_006_RemoveItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">login_func</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_001_validLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_002_lockedUserLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_003_emptyLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BStackDemo_Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BStackDemo Capstone Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BStackDemo_Capstone_Suite');
+function tableData_BStackDemo_Capstone_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_006_RemoveItem')
+data.setCell(0, 2, 'tests.AddToCartTest')
+data.setCell(0, 3, 21419);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_005_AddMultipleItems')
+data.setCell(1, 2, 'tests.AddToCartTest')
+data.setCell(1, 3, 18905);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_007_PlaceOrderSuccess')
+data.setCell(2, 2, 'tests.CheckoutTest')
+data.setCell(2, 3, 10225);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_008_EmptyCartNegative')
+data.setCell(3, 2, 'tests.CheckoutTest')
+data.setCell(3, 3, 6377);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_004_AddSingleItem')
+data.setCell(4, 2, 'tests.AddToCartTest')
+data.setCell(4, 3, 4303);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_002_lockedUserLogin')
+data.setCell(5, 2, 'tests.LoginTest')
+data.setCell(5, 3, 1923);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_001_validLogin')
+data.setCell(6, 2, 'tests.LoginTest')
+data.setCell(6, 3, 1686);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_003_emptyLogin')
+data.setCell(7, 2, 'tests.LoginTest')
+data.setCell(7, 3, 1091);
+window.suiteTableData['BStackDemo_Capstone_Suite']= { tableData: data, tableDiv: 'times-div-BStackDemo_Capstone_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-BStackDemo_Capstone_Suite">
+              </div> <!-- times-div-BStackDemo_Capstone_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BStackDemo_Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BStackDemo Capstone Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BStackDemo_Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.AddToCartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">finishReport</span>
+                <br/>
+                <span class="ignored-method-name">setupReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.CheckoutTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setupReport</span>
+                <br/>
+                <span class="ignored-method-name">finishReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BStackDemo_Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=LoginTest.TC_001_validLogin()[pri:1, instance:tests.Lo...)</span>
+                <span class="method-start">236 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_001_validLogin</span>
+                <span class="method-start">8731 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_001_validLogin status=SUCCESS method=LoginTest.TC_001_validLogin()[pri:1, instan...)</span>
+                <span class="method-start">10424 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=LoginTest.TC_002_lockedUserLogin()[pri:2, instance:tes...)</span>
+                <span class="method-start">10648 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_002_lockedUserLogin</span>
+                <span class="method-start">15398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_002_lockedUserLogin status=SUCCESS method=LoginTest.TC_002_lockedUserLogin()[pri...)</span>
+                <span class="method-start">17325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=LoginTest.TC_003_emptyLogin()[pri:3, instance:tests.Lo...)</span>
+                <span class="method-start">17548 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_003_emptyLogin</span>
+                <span class="method-start">22984 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_003_emptyLogin status=SUCCESS method=LoginTest.TC_003_emptyLogin()[pri:3, instan...)</span>
+                <span class="method-start">24075 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=AddToCartTest.TC_004_AddSingleItem()[pri:1, instance:t...)</span>
+                <span class="method-start">24285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_004_AddSingleItem</span>
+                <span class="method-start">29413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_004_AddSingleItem status=SUCCESS method=AddToCartTest.TC_004_AddSingleItem()[pri...)</span>
+                <span class="method-start">33719 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=AddToCartTest.TC_005_AddMultipleItems()[pri:2, instanc...)</span>
+                <span class="method-start">33916 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_005_AddMultipleItems</span>
+                <span class="method-start">39135 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_005_AddMultipleItems status=SUCCESS method=AddToCartTest.TC_005_AddMultipleItems...)</span>
+                <span class="method-start">58048 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=AddToCartTest.TC_006_RemoveItem()[pri:3, instance:test...)</span>
+                <span class="method-start">59059 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_006_RemoveItem</span>
+                <span class="method-start">63832 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_006_RemoveItem status=SUCCESS method=AddToCartTest.TC_006_RemoveItem()[pri:3, in...)</span>
+                <span class="method-start">85252 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=CheckoutTest.TC_007_PlaceOrderSuccess()[pri:1, instanc...)</span>
+                <span class="method-start">85468 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_007_PlaceOrderSuccess</span>
+                <span class="method-start">90094 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_007_PlaceOrderSuccess status=SUCCESS method=CheckoutTest.TC_007_PlaceOrderSucces...)</span>
+                <span class="method-start">100319 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=CheckoutTest.TC_008_EmptyCartNegative()[pri:2, instanc...)</span>
+                <span class="method-start">100498 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_008_EmptyCartNegative</span>
+                <span class="method-start">105392 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_008_EmptyCartNegative status=SUCCESS method=CheckoutTest.TC_008_EmptyCartNegativ...)</span>
+                <span class="method-start">111769 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">finishReport</span>
+                <span class="method-start">112019 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

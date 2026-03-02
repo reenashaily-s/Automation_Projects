@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-04T14:10:56 IST" name="BStackDemo Capstone Suite" finished-at="2026-02-04T14:12:48 IST" duration-ms="111774">
+    <groups>
+      <group name="login_func">
+        <method signature="LoginTest.TC_001_validLogin()[pri:1, instance:tests.LoginTest@293a5bf6]" name="TC_001_validLogin" class="tests.LoginTest"/>
+        <method signature="LoginTest.TC_002_lockedUserLogin()[pri:2, instance:tests.LoginTest@293a5bf6]" name="TC_002_lockedUserLogin" class="tests.LoginTest"/>
+        <method signature="LoginTest.TC_003_emptyLogin()[pri:3, instance:tests.LoginTest@293a5bf6]" name="TC_003_emptyLogin" class="tests.LoginTest"/>
+      </group> <!-- login_func -->
+      <group name="cart_func">
+        <method signature="AddToCartTest.TC_004_AddSingleItem()[pri:1, instance:tests.AddToCartTest@3c19aaa5]" name="TC_004_AddSingleItem" class="tests.AddToCartTest"/>
+        <method signature="AddToCartTest.TC_005_AddMultipleItems()[pri:2, instance:tests.AddToCartTest@3c19aaa5]" name="TC_005_AddMultipleItems" class="tests.AddToCartTest"/>
+        <method signature="AddToCartTest.TC_006_RemoveItem()[pri:3, instance:tests.AddToCartTest@3c19aaa5]" name="TC_006_RemoveItem" class="tests.AddToCartTest"/>
+      </group> <!-- cart_func -->
+    </groups>
+    <test started-at="2026-02-04T14:10:56 IST" name="End to End Regression" finished-at="2026-02-04T14:12:48 IST" duration-ms="111774">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:tests.LoginTest@293a5bf6]" started-at="2026-02-04T14:10:56 IST" name="setupReport" finished-at="2026-02-04T14:10:56 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@293a5bf6]" started-at="2026-02-04T14:10:56 IST" name="setUp" finished-at="2026-02-04T14:11:04 IST" duration-ms="8491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.TC_001_validLogin()[pri:1, instance:tests.LoginTest@293a5bf6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_001_validLogin()[pri:1, instance:tests.LoginTest@293a5bf6]" started-at="2026-02-04T14:11:04 IST" name="TC_001_validLogin" finished-at="2026-02-04T14:11:06 IST" duration-ms="1686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_validLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@293a5bf6]" started-at="2026-02-04T14:11:06 IST" name="tearDown" finished-at="2026-02-04T14:11:06 IST" duration-ms="221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_001_validLogin status=SUCCESS method=LoginTest.TC_001_validLogin()[pri:1, instance:tests.LoginTest@293a5bf6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@293a5bf6]" started-at="2026-02-04T14:11:06 IST" name="setUp" finished-at="2026-02-04T14:11:11 IST" duration-ms="4750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.TC_002_lockedUserLogin()[pri:2, instance:tests.LoginTest@293a5bf6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_002_lockedUserLogin()[pri:2, instance:tests.LoginTest@293a5bf6]" started-at="2026-02-04T14:11:11 IST" name="TC_002_lockedUserLogin" finished-at="2026-02-04T14:11:13 IST" duration-ms="1923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002_lockedUserLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@293a5bf6]" started-at="2026-02-04T14:11:13 IST" name="tearDown" finished-at="2026-02-04T14:11:13 IST" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_002_lockedUserLogin status=SUCCESS method=LoginTest.TC_002_lockedUserLogin()[pri:2, instance:tests.LoginTest@293a5bf6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@293a5bf6]" started-at="2026-02-04T14:11:13 IST" name="setUp" finished-at="2026-02-04T14:11:19 IST" duration-ms="5432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.TC_003_emptyLogin()[pri:3, instance:tests.LoginTest@293a5bf6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_003_emptyLogin()[pri:3, instance:tests.LoginTest@293a5bf6]" started-at="2026-02-04T14:11:19 IST" name="TC_003_emptyLogin" finished-at="2026-02-04T14:11:20 IST" duration-ms="1091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003_emptyLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@293a5bf6]" started-at="2026-02-04T14:11:20 IST" name="tearDown" finished-at="2026-02-04T14:11:20 IST" duration-ms="208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_003_emptyLogin status=SUCCESS method=LoginTest.TC_003_emptyLogin()[pri:3, instance:tests.LoginTest@293a5bf6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="finishReport()[pri:0, instance:tests.LoginTest@293a5bf6]" started-at="2026-02-04T14:12:48 IST" name="finishReport" finished-at="2026-02-04T14:12:48 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishReport -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.AddToCartTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:tests.AddToCartTest@3c19aaa5]" started-at="2026-02-04T14:11:20 IST" name="setUp" finished-at="2026-02-04T14:11:25 IST" duration-ms="5128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AddToCartTest.TC_004_AddSingleItem()[pri:1, instance:tests.AddToCartTest@3c19aaa5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_004_AddSingleItem()[pri:1, instance:tests.AddToCartTest@3c19aaa5]" started-at="2026-02-04T14:11:25 IST" name="TC_004_AddSingleItem" description="TC_004: Add single item to cart" finished-at="2026-02-04T14:11:29 IST" duration-ms="4303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004_AddSingleItem -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AddToCartTest@3c19aaa5]" started-at="2026-02-04T14:11:29 IST" name="tearDown" finished-at="2026-02-04T14:11:29 IST" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_004_AddSingleItem status=SUCCESS method=AddToCartTest.TC_004_AddSingleItem()[pri:1, instance:tests.AddToCartTest@3c19aaa5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:tests.AddToCartTest@3c19aaa5]" started-at="2026-02-04T14:11:29 IST" name="setUp" finished-at="2026-02-04T14:11:35 IST" duration-ms="5219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AddToCartTest.TC_005_AddMultipleItems()[pri:2, instance:tests.AddToCartTest@3c19aaa5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_005_AddMultipleItems()[pri:2, instance:tests.AddToCartTest@3c19aaa5]" started-at="2026-02-04T14:11:35 IST" name="TC_005_AddMultipleItems" description="TC_005: Add multiple items to cart and verify cart count" finished-at="2026-02-04T14:11:54 IST" duration-ms="18905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005_AddMultipleItems -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AddToCartTest@3c19aaa5]" started-at="2026-02-04T14:11:54 IST" name="tearDown" finished-at="2026-02-04T14:11:55 IST" duration-ms="1010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_005_AddMultipleItems status=SUCCESS method=AddToCartTest.TC_005_AddMultipleItems()[pri:2, instance:tests.AddToCartTest@3c19aaa5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:tests.AddToCartTest@3c19aaa5]" started-at="2026-02-04T14:11:55 IST" name="setUp" finished-at="2026-02-04T14:11:59 IST" duration-ms="4773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AddToCartTest.TC_006_RemoveItem()[pri:3, instance:tests.AddToCartTest@3c19aaa5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_006_RemoveItem()[pri:3, instance:tests.AddToCartTest@3c19aaa5]" started-at="2026-02-04T14:11:59 IST" name="TC_006_RemoveItem" description="TC_006: Remove item from cart" finished-at="2026-02-04T14:12:21 IST" duration-ms="21419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_006_RemoveItem -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AddToCartTest@3c19aaa5]" started-at="2026-02-04T14:12:21 IST" name="tearDown" finished-at="2026-02-04T14:12:21 IST" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_006_RemoveItem status=SUCCESS method=AddToCartTest.TC_006_RemoveItem()[pri:3, instance:tests.AddToCartTest@3c19aaa5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddToCartTest -->
+      <class name="tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:tests.CheckoutTest@3349e9bb]" started-at="2026-02-04T14:12:21 IST" name="setUp" finished-at="2026-02-04T14:12:26 IST" duration-ms="4626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CheckoutTest.TC_007_PlaceOrderSuccess()[pri:1, instance:tests.CheckoutTest@3349e9bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_007_PlaceOrderSuccess()[pri:1, instance:tests.CheckoutTest@3349e9bb]" started-at="2026-02-04T14:12:26 IST" name="TC_007_PlaceOrderSuccess" description="TC_007: Valid Checkout Flow" finished-at="2026-02-04T14:12:36 IST" duration-ms="10225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_007_PlaceOrderSuccess -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CheckoutTest@3349e9bb]" started-at="2026-02-04T14:12:36 IST" name="tearDown" finished-at="2026-02-04T14:12:36 IST" duration-ms="178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_007_PlaceOrderSuccess status=SUCCESS method=CheckoutTest.TC_007_PlaceOrderSuccess()[pri:1, instance:tests.CheckoutTest@3349e9bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:tests.CheckoutTest@3349e9bb]" started-at="2026-02-04T14:12:36 IST" name="setUp" finished-at="2026-02-04T14:12:41 IST" duration-ms="4894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CheckoutTest.TC_008_EmptyCartNegative()[pri:2, instance:tests.CheckoutTest@3349e9bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_008_EmptyCartNegative()[pri:2, instance:tests.CheckoutTest@3349e9bb]" started-at="2026-02-04T14:12:41 IST" name="TC_008_EmptyCartNegative" description="TC_008: Empty Cart Verification" finished-at="2026-02-04T14:12:47 IST" duration-ms="6377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_008_EmptyCartNegative -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CheckoutTest@3349e9bb]" started-at="2026-02-04T14:12:47 IST" name="tearDown" finished-at="2026-02-04T14:12:48 IST" duration-ms="213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_008_EmptyCartNegative status=SUCCESS method=CheckoutTest.TC_008_EmptyCartNegative()[pri:2, instance:tests.CheckoutTest@3349e9bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckoutTest -->
+    </test> <!-- End to End Regression -->
+  </suite> <!-- BStackDemo Capstone Suite -->
+</testng-results>

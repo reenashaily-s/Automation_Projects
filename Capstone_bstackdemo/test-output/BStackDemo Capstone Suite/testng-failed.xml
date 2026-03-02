@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BStackDemo Capstone Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="End to End Regression(failed)">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="TC_001_validLogin"/>
+          <include name="afterTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.AddToCartTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="TC_004_AddSingleItem"/>
+          <include name="afterTest"/>
+          <include name="setupTest"/>
+          <include name="TC_005_AddMultipleItems"/>
+          <include name="TC_006_RemoveItem"/>
+        </methods>
+      </class> <!-- tests.AddToCartTest -->
+      <class name="tests.CheckoutTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="TC_007_PlaceOrderSuccess"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setupTest"/>
+          <include name="TC_008_EmptyCartNegative"/>
+        </methods>
+      </class> <!-- tests.CheckoutTest -->
+    </classes>
+  </test> <!-- End to End Regression(failed) -->
+</suite> <!-- Failed suite [BStackDemo Capstone Suite] -->

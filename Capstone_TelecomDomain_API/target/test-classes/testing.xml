@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Contact List API Suite">
+    <listeners>
+        <listener class-name="com.utils.Listeners"/>
+    </listeners>
+
+    <test name="APITesting_TelecomDomain">
+        <classes>
+            <class name="com.tests.TestExecution"/>
+        </classes>
+    </test>
+</suite>

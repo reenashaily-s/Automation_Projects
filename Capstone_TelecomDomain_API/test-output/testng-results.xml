@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-04T14:13:21 IST" name="Contact List API Suite" finished-at="2026-02-04T14:13:42 IST" duration-ms="20385">
+    <groups>
+    </groups>
+    <test started-at="2026-02-04T14:13:21 IST" name="APITesting_TelecomDomain" finished-at="2026-02-04T14:13:42 IST" duration-ms="20385">
+      <class name="com.tests.TestExecution">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.TestExecution@61df66b6]" started-at="2026-02-04T14:13:21 IST" name="setup" finished-at="2026-02-04T14:13:21 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc1_addUser()[pri:1, instance:com.tests.TestExecution@61df66b6]" started-at="2026-02-04T14:13:21 IST" name="tc1_addUser" finished-at="2026-02-04T14:13:25 IST" duration-ms="3983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_addUser -->
+        <test-method signature="tc2_getUserProfile()[pri:2, instance:com.tests.TestExecution@61df66b6]" started-at="2026-02-04T14:13:25 IST" name="tc2_getUserProfile" finished-at="2026-02-04T14:13:27 IST" depends-on-methods="com.tests.TestExecution.tc1_addUser" duration-ms="1766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2_getUserProfile -->
+        <test-method signature="tc3_updateUser()[pri:3, instance:com.tests.TestExecution@61df66b6]" started-at="2026-02-04T14:13:27 IST" name="tc3_updateUser" finished-at="2026-02-04T14:13:29 IST" depends-on-methods="com.tests.TestExecution.tc2_getUserProfile" duration-ms="1798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3_updateUser -->
+        <test-method signature="tc4_loginUser()[pri:4, instance:com.tests.TestExecution@61df66b6]" started-at="2026-02-04T14:13:29 IST" name="tc4_loginUser" finished-at="2026-02-04T14:13:31 IST" depends-on-methods="com.tests.TestExecution.tc3_updateUser" duration-ms="2006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4_loginUser -->
+        <test-method signature="tc5_addContact()[pri:5, instance:com.tests.TestExecution@61df66b6]" started-at="2026-02-04T14:13:31 IST" name="tc5_addContact" finished-at="2026-02-04T14:13:33 IST" depends-on-methods="com.tests.TestExecution.tc4_loginUser" duration-ms="1597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5_addContact -->
+        <test-method signature="tc6_getContactList()[pri:6, instance:com.tests.TestExecution@61df66b6]" started-at="2026-02-04T14:13:33 IST" name="tc6_getContactList" finished-at="2026-02-04T14:13:34 IST" depends-on-methods="com.tests.TestExecution.tc5_addContact" duration-ms="1640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc6_getContactList -->
+        <test-method signature="tc7_getSingleContact()[pri:7, instance:com.tests.TestExecution@61df66b6]" started-at="2026-02-04T14:13:34 IST" name="tc7_getSingleContact" finished-at="2026-02-04T14:13:36 IST" depends-on-methods="com.tests.TestExecution.tc6_getContactList" duration-ms="2133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc7_getSingleContact -->
+        <test-method signature="tc8_updateContactFull()[pri:8, instance:com.tests.TestExecution@61df66b6]" started-at="2026-02-04T14:13:36 IST" name="tc8_updateContactFull" finished-at="2026-02-04T14:13:38 IST" depends-on-methods="com.tests.TestExecution.tc7_getSingleContact" duration-ms="1742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc8_updateContactFull -->
+        <test-method signature="tc9_updateContactPartial()[pri:9, instance:com.tests.TestExecution@61df66b6]" started-at="2026-02-04T14:13:38 IST" name="tc9_updateContactPartial" finished-at="2026-02-04T14:13:40 IST" depends-on-methods="com.tests.TestExecution.tc8_updateContactFull" duration-ms="1737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc9_updateContactPartial -->
+        <test-method signature="tc10_logout()[pri:10, instance:com.tests.TestExecution@61df66b6]" started-at="2026-02-04T14:13:40 IST" name="tc10_logout" finished-at="2026-02-04T14:13:42 IST" depends-on-methods="com.tests.TestExecution.tc9_updateContactPartial" duration-ms="1928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc10_logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.TestExecution@61df66b6]" started-at="2026-02-04T14:13:42 IST" name="tearDown" finished-at="2026-02-04T14:13:42 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.TestExecution -->
+    </test> <!-- APITesting_TelecomDomain -->
+  </suite> <!-- Contact List API Suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "All Tests">
+	<test name = "Execute Package">
+		<packages>
+			<package name = "com.TestNGDemos"></package>
+		</packages>
+	</test>
+</suite>

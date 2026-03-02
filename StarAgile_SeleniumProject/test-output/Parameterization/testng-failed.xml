@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameterization]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="un1" value="sai"/>
+    <parameter name="ps1" value="sai123"/>
+    <classes>
+      <class name="com.TestNGDemos.D07Parameterization">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="loginTest1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.TestNGDemos.D07Parameterization -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Parameterization] -->

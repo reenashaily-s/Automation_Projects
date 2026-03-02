@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Amazon Tests">
+	<test name = "Execute Multiple Tests">
+		<classes>
+			<class name = "com.TestNGDemos.D05AmazonAssignment">
+				<methods>
+					<exclude name = "clickOnTodaysDeals"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

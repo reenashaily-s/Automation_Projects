@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-04T14:07:33 IST" name="BlazeDemo Automation Suite" finished-at="2026-02-04T14:08:32 IST" duration-ms="58474">
+    <groups>
+    </groups>
+    <test started-at="2026-02-04T14:07:33 IST" name="EndToEndBookingTests" finished-at="2026-02-04T14:08:32 IST" duration-ms="58474">
+      <class name="com.blazedemo.tests.FlightBookingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:07:33 IST" name="setUp" finished-at="2026-02-04T14:07:54 IST" duration-ms="20567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC01_VerifyHomepage()[pri:1, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:07:54 IST" name="TC01_VerifyHomepage" finished-at="2026-02-04T14:07:54 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_VerifyHomepage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:07:54 IST" name="tearDown" finished-at="2026-02-04T14:07:54 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:07:54 IST" name="setUp" finished-at="2026-02-04T14:07:57 IST" duration-ms="2374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC02_SearchFlights()[pri:2, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:07:57 IST" name="TC02_SearchFlights" finished-at="2026-02-04T14:07:58 IST" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_SearchFlights -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:07:58 IST" name="tearDown" finished-at="2026-02-04T14:07:58 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:07:58 IST" name="setUp" finished-at="2026-02-04T14:08:01 IST" duration-ms="3611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC03_FullBookingFlow()[pri:3, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:01 IST" name="TC03_FullBookingFlow" finished-at="2026-02-04T14:08:05 IST" duration-ms="3366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_FullBookingFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:05 IST" name="tearDown" finished-at="2026-02-04T14:08:05 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:06 IST" name="setUp" finished-at="2026-02-04T14:08:08 IST" duration-ms="2788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC04_DataDrivenBooking(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:08 IST" name="TC04_DataDrivenBooking" data-provider="excelData" finished-at="2026-02-04T14:08:10 IST" duration-ms="2160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123 Selenium Lane]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.11122223333444E15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_DataDrivenBooking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:10 IST" name="tearDown" finished-at="2026-02-04T14:08:11 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:11 IST" name="setUp" finished-at="2026-02-04T14:08:13 IST" duration-ms="2507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC04_DataDrivenBooking(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:13 IST" name="TC04_DataDrivenBooking" data-provider="excelData" finished-at="2026-02-04T14:08:15 IST" duration-ms="1936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jane Smith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456 Maven Street]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5.55566667777888E15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_DataDrivenBooking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:15 IST" name="tearDown" finished-at="2026-02-04T14:08:15 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:15 IST" name="setUp" finished-at="2026-02-04T14:08:17 IST" duration-ms="2182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC04_DataDrivenBooking(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:17 IST" name="TC04_DataDrivenBooking" data-provider="excelData" finished-at="2026-02-04T14:08:20 IST" duration-ms="2174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[789 Automation Rd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.99900001111222E15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_DataDrivenBooking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:20 IST" name="tearDown" finished-at="2026-02-04T14:08:20 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:20 IST" name="setUp" finished-at="2026-02-04T14:08:22 IST" duration-ms="2263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC05_BlankCreditCard()[pri:5, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:22 IST" name="TC05_BlankCreditCard" finished-at="2026-02-04T14:08:24 IST" duration-ms="2097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_BlankCreditCard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:24 IST" name="tearDown" finished-at="2026-02-04T14:08:24 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:24 IST" name="setUp" finished-at="2026-02-04T14:08:27 IST" duration-ms="2308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC06_InvalidCreditCardChars()[pri:6, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:27 IST" name="TC06_InvalidCreditCardChars" finished-at="2026-02-04T14:08:29 IST" duration-ms="2276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_InvalidCreditCardChars -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:29 IST" name="tearDown" finished-at="2026-02-04T14:08:29 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:29 IST" name="setUp" finished-at="2026-02-04T14:08:31 IST" duration-ms="2346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC07_SameCitySelection()[pri:7, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:31 IST" name="TC07_SameCitySelection" finished-at="2026-02-04T14:08:32 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_SameCitySelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@4567f35d]" started-at="2026-02-04T14:08:32 IST" name="tearDown" finished-at="2026-02-04T14:08:32 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blazedemo.tests.FlightBookingTest -->
+    </test> <!-- EndToEndBookingTests -->
+  </suite> <!-- BlazeDemo Automation Suite -->
+</testng-results>

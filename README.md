@@ -1,4 +1,3 @@
-# Automation Projects
 # Automation Projects Portfolio
 
 This repository contains a collection of automation testing and DevOps projects. Each project is maintained in its own dedicated branch for better organization and isolation.
